@@ -17,19 +17,29 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <ul id="nav-mobile" class="side-nav fixed black">
+    <nav>
+      <ul id="" class="hide-on-med-and-down">
         <li class="logo center"><a id="logo-container" href="#" class="brand-logo">
           <object id="front-page-logo" type="image/png" data="logo.png"></object></a></li>
-        <li><a class = "white-text" href="../">Home</a></li>
+        <li><a class = "white-text" href="">Home</a></li>
         <li><a class = "white-text" href="../about/">About</a></li>
         <li><a class = "white-text" href="../projects/">Projects</a></li>
         <li><a class = "white-text" href="../contact/">Contact</a></li>
         <!--ADD RESUME-->
         <li><a href="../resume.pdf">Resume</a></li>
       </ul>
-      <div class="container"><a href="#" data-activates="nav-mobile" class="button-collapse top-nav hide-on-large-only"><i class="medium mdi-navigation-menu indigo-text text-accent-2"></i></a></div>
-    </header>
+      <ul id="slide-out" class="side-nav fixed black">
+        <li class="logo center"><a id="logo-container" href="#" class="brand-logo">
+          <object id="front-page-logo" type="image/png" data="logo.png"></object></a></li>
+        <li><a class = "white-text" href="">Home</a></li>
+        <li><a class = "white-text" href="../about/">About</a></li>
+        <li><a class = "white-text" href="../projects/">Projects</a></li>
+        <li><a class = "white-text" href="../contact/">Contact</a></li>
+        <!--ADD RESUME-->
+        <li><a class = "white-text" href="../resume.pdf">Resume</a></li>
+      </ul>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu blue"></i></a>
+    </nav>
 
 
     <script src="../js/jquery-3.0.0.min.js" charset="utf-8"></script>
