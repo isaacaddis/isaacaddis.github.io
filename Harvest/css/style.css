@@ -1,0 +1,41 @@
+/*
+  @Made by Isaac Addis (www.github.com/isaacaddis).
+  Check out some of my work!
+*/
+::selection{
+  background-color:lightBlue;
+}
+ul li{
+  color:black;
+}
+#hero{
+  height:80vh;
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+#logo{
+	padding-left: 1em;
+}
+#about{
+	padding-top: 10px;
+	height:60vh;
+}
