@@ -1,68 +1,112 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="msapplication-tap-highlight" content="no">
-    <meta name="description" content="Isaac Addis' portfolio. ">
-    <title>Home: Isaac Addis</title>
-    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
-    <link href="http://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <meta name="msapplication-TileColor" content="#FFFFFF">
-    <meta name="msapplication-TileImage" content="">
-    <meta name="theme-color" content="#D3D3D3">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  </head>
-  <body>
-    <nav>
-			<ul id="side-nav" class="side-nav fixed greyish-color">
-				<li class="logo center"><a id="logo-container" href="#" class="brand-logo">
-					<object id="front-page-logo" type="image/png" data="logo.png"></object></a></li>
-				<li><a class = "" href="">Home</a></li>
-				<li><a class = "" href="about/">About</a></li>
-				<li><a class = "" href="projects/">Projects</a></li>
-				<li><a class = "" href="contact/">Contact</a></li>
-        <!--ADD RESUME-->
-        <li><a href="resume.pdf">Resume</a></li>
-			</ul>
-      <ul id="slide-out" class="side-nav fixed greyish-color">
-        <li class="logo center red lighten-2">
-          <img src="dvader.jpg" class = "circle" height ="100" width = "100" alt="" />
-        </li>
-        <li><a class = "" href="">Home</a></li>
-        <li><a class = "" href="about/">About</a></li>
-        <li><a class = "" href="projects/">Projects</a></li>
-        <li><a class = "" href="contact/">Contact</a></li>
-        <!--ADD RESUME-->
-        <li><a class = "" href="resume.pdf">Resume</a></li>
-      </ul>
-
-      <a href="..\#" data-activates="slide-out" class="button-collapse"><i class="material-icons red-text text-lighten-2">menu</i></a>
-		</nav>
-    <!--Credit to pexels.com for providing stock images-->
-    <div class="row">
-      <div class="slider fullscreen">
-        <ul class = "slides">
-          <li>
-            <img src="images/clean.jpg" alt="" />
-            <div class="caption right-align">
-              <h3 class = "red-text light text-lighten-2">Web Developer</h3>
+<html lang="en" class="no-js">
+   <title>Welcome</title>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+   <link rel="stylesheet" href="assets/fontawesome/css/font-awesome.css">
+   <link rel="stylesheet" href="assets/gridloading/css/component.css">
+   <link rel="stylesheet" href="assets/animate.css" >
+   <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <!-- header -->
+      <div id="top" class="header-bg fullpage">
+         <div class="header fullpage">
+            <div class="container">
+               <div class="absolute-center">
+                  <div class="row">
+                     <div class="col-sm-7">
+                        <h1 class="info animated fadeInDown"><a href="" class="logo">Isaac Addis
+                           <br>
+                           <span id="typed">
+                           </span>
+                        </h1>
+                        <a href="#works" class="btn scroll animated bounceInUp">View My Works</a><a href="#contact" class="btn scroll animated bounceInDown">Contact</a>
+                     </div>
+                     <div class="col-sm-4 col-sm-offset-1">
+                        <div class="connect-icon">
+                           <div class="prof-links clearfix animated bounceInUp">
+                              <a href="https://www.linkedin.com/in/isaac-addis-b25a51121
+                                 "><img alt="portfolio" src="images/linked.png" height="48"></a>
+                           </div>
+                           <div class="social  clearfix  animated bounceInDown">
+                              <a href="https://www.twitter.com/vim1278"><img alt="portfolio" src="images/twitter.png"  width="32"></a>				
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-          </li>
-          <li>
-            <img src="images/laptop.jpg" alt="" />
-            <div class="caption left-align">
-              <h3 class = "white-text light text-darken-2">Designer</h3>
-            </div>
-          </li>
-        </ul>
+         </div>
       </div>
-    </div>
-    <script src="js/jquery-3.0.0.min.js" charset="utf-8"></script>
-    <script src="js/materialize.min.js" charset="utf-8"></script>
-    <script src="js/custom.js" charset="utf-8"></script>
-  </body>
+      <!-- header -->
+      <div class="content-body">
+         <!-- works -->
+         <div id="works" class="portfolio spacer">
+            <div class="container">
+               <h2 class="center">Works</h2>
+               <ul class="grid effect-2" id="grid">
+                  <li>
+                     <img alt="portfolio" src="http://isaacaddis.github.io/images/cams_screenshot.PNG">
+                     <div class="overlay animated fadeIn"><span class="animated bounceIn"><a href="http://www.cams2019.tk" target="_blank"><i class="fa fa-link"></i> View</a></span></div>
+                  </li>
+                  <li>
+                     <img alt="portfolio" src="http://isaacaddis.github.io/images/votenathalie_screenshot.PNG">
+                     <div class="overlay animated fadeIn"><span class="animated fadeInDown"><a href="http://www.votenathalie.tk" target="_blank"><i class="fa fa-link"></i> View</a></span></div>
+                  </li>
+                  <li>
+                     <img alt="portfolio" src="http://isaacaddis.github.io/images/ezenna_screenshot.PNG">
+                     <div class="overlay animated fadeIn"><span class="animated fadeInUp"><a href="http://isaacaddis21.github.io" target="_blank"><i class="fa fa-link"></i>View</a></span></div>
+                  </li>
+                  <li>
+                     <img alt="portfolio" src="http://isaacaddis.github.io/images/hatsuyuki_screenshot.png">
+                     <div class="overlay animated fadeIn"><span class="animated bounceIn"><a href="http://isaacaddis21.github.io/HatsuYuki" target="_blank"><i class="fa fa-link"></i> View</a></span></div>
+                  </li>
+                  <li>
+                     <img alt="portfolio" src="images/harvest.png">
+                     <div class="overlay animated fadeIn"><span class="animated bounceIn"><a href="http://www.isaacaddis.github.io/Harvest" target="_blank"><i class="fa fa-link"></i> View</a></span></div>
+                  </li>
+                  <li>
+                     <img alt="portfolio" src="images/portfolio.png">
+                     <div class="overlay animated fadeIn"><span class="animated bounceIn"><a href="http://isaacaddis.github.io" target="_blank"><i class="fa fa-link"></i> View</a></span></div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <!-- works -->
+         <!-- testimonials -->
+         <!-- testimonials -->
+      </div>
+      <!-- contact -->
+      <div id="contact" class="footer center spacer">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-offset-3 col-sm-6 contact-form">
+                  <h3>Contact</h3>
+                  <p>I would be happy to work with you on your next website.</p>
+                  <form action="MAILTO:isaacaddis21@gmail.com" method="post" enctype="text/plain">
+                     <input type="text" name="form_name" class="form-control" placeholder="Name" >
+                     <input type="email"  name="form_email" class="form-control" placeholder="Email">
+                     <textarea name="form_message" class="form-control" placeholder="Message" rows="5"></textarea>
+                     <input type="submit"  name="Submit" class="btn btn-primary btn-lg" value="Submit">
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- contact -->
+      <a href="#top" class="toTop scroll"><i class="fa fa-angle-up"></i></a>
+      <script src="assets/bootstrap/js/bootstrap.js"></script>
+      <!-- gridloading script -->
+      <script src="assets/gridloading/js/modernizr.custom.js"></script>
+      <script src="assets/gridloading/js/masonry.pkgd.min.js"></script>
+      <script src="assets/gridloading/js/imagesloaded.js"></script>
+      <script src="assets/gridloading/js/classie.js"></script>
+      <script src="assets/gridloading/js/AnimOnScroll.js"></script>
+      <!-- gridloading script -->
+      <script src="assets/scripts.js"></script>
+      <script type="text/javascript" src = "typed.js"></script>
+   </body>
 </html>
