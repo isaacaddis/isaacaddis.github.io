@@ -42,7 +42,7 @@ $(window).scroll(function() {
   });
 $(function(){
         $("#typed").typed({
-            strings: ["Web Developer","Designer","Programmer","Computer Lover"],
+            strings: ["Web Developer","Designer","Programmer","Javascript Lover","Language Learner"],
 
             stringsElement: null,
             // typing speed
