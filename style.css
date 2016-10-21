@@ -27,7 +27,7 @@ h3{font-weight:300;font-size: 35px;line-height:38px;margin-bottom:40px;}
 .spacer{padding: 100px 0;}
 .center{text-align: center;}
 
-.header-bg {background:url(images/header-bg1.jpg) center fixed;background-size:cover; }
+.header-bg {background:url(images/losangeles.png) center fixed;background-size:cover; }
 .header {background:rgba(0,0,0,0.8);position: absolute;top: 0;bottom: 0;left: 0;right: 0;}
 .fullpage .container{display:table; height:inherit;}
 .fullpage .absolute-center{display:table-cell;vertical-align: middle;}
@@ -95,7 +95,7 @@ h3{font-weight:300;font-size: 35px;line-height:38px;margin-bottom:40px;}
 }
 
 
-@media (max-width: 767px){	
+@media (max-width: 767px){
 	h1 {font-size: 50px;line-height: 90px;}
 	h2{font-size: 25px;margin-bottom: 25px;}
 	.header a.btn{font-size: 12px;margin-right: 18px;}
