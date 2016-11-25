@@ -27,7 +27,13 @@ h3{font-weight:300;font-size: 35px;line-height:38px;margin-bottom:40px;}
 .spacer{padding: 100px 0;}
 .center{text-align: center;}
 
-.header-bg {background-color:black;}
+.header-bg {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, white); /* Standard syntax */
+}
 .header {background:rgba(0,0,0,0.8);position: absolute;top: 0;bottom: 0;left: 0;right: 0;}
 .fullpage .container{display:table; height:inherit;}
 .fullpage .absolute-center{display:table-cell;vertical-align: middle;}
