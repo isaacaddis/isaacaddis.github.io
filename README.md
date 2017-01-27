@@ -14,6 +14,8 @@ Ironically, I recieved some design inspiration from minimalism. The main content
 
 Github hosting does not support any server-side hosting so I simply opted to use a clickable email link, rather than a form (the solution I previously had)
 
-##Future Improvements 
+##Future Improvements/To-Do
 	
-Adding more articles, projects. 
+1. Fix Mobile Cover photo sizing problem
+2. Create a preloader for the site
+3. Add more projects and articles
