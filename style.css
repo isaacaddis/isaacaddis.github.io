@@ -1,3 +1,4 @@
+
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 body{background-color:#fff;font:normal 16px/22px Lato;color:#555;}
 p {padding-bottom:20px;}
@@ -29,7 +30,7 @@ h3{font-weight:300;font-size: 35px;line-height:38px;margin-bottom:40px;}
 
 .header-bg {
 		background:url("LosAngeles.jpg") no-repeat;
-		background-size:100%;
+		background-size: cover;
 }
 .header {background:rgba(0,0,0,0.8);position: absolute;top: 0;bottom: 0;left: 0;right: 0;}
 .fullpage .container{display:table; height:inherit;}
