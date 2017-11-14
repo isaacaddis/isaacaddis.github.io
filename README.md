@@ -16,6 +16,5 @@ Github hosting does not support any server-side hosting so I simply opted to use
 
 ## Future Improvements/To-Do
 	
-1. Fix Mobile Cover photo sizing problem
-2. Create a preloader for the site
-3. Add more projects and articles
+1. Create a preloader for the site
+2. Add more projects and articles
