@@ -7,6 +7,9 @@
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
+  "resolutions": {
+    "xstate": "4.10.0"
+  },
   "dependencies": {
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",
@@ -15,7 +18,7 @@
     "@types/styled-components": "^5.1.2",
     "@types/typography": "^0.16.3",
     "babel-plugin-styled-components": "^1.10.0",
-    "gatsby": "2.23.12",
+    "gatsby": "^2.24.37",
     "gatsby-image": "^2.0.39",
     "gatsby-plugin-feed-mdx": "^1.0.0",
     "gatsby-plugin-google-analytics": "^2.0.18",
@@ -69,6 +72,6 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build  --prefix-paths && gh-pages -d public"
   }
 }

@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/",
   siteMetadata: {
     // edit below
     title: `Isaac Addis`,
@@ -48,7 +49,7 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-mdx`,
-      options: {
+    options: {
         extensions: [".mdx", ".md"],
         gatsbyRemarkPlugins: [
           {
