@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{QeBL:function(a,e,t){"use strict";t.r(e);var i=t("q1tI"),o=t.n(i),n=t("9Dj+"),r=t("H8eV");e.default=function(a){var e=a.location;return o.a.createElement(n.a,{location:e,title:"Isaac Addis"},o.a.createElement(r.a,{description:"Isaac Addis' web portfolio.",title:"Home",keywords:["isaac","addis","javascript","react"]}),o.a.createElement("img",{style:{margin:0},src:"./sotenbori.jpg",alt:"Soutenbori (Yakuza 0)"}))}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-a3aeb1f8f4182e4612e8.js.map
